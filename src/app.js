@@ -1,1 +1,9 @@
-console.log("I a'm runnig 😜");
+const exp = require('express')
+const dotenv = require('dotenv')
+
+const app = exp()
+dotenv.config()
+const port = process.env.PORT ||1010;
+
+app.listen(port, () => console.log("Serever up and running on port " + port));
+      
