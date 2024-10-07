@@ -5,5 +5,10 @@ const app = exp()
 dotenv.config()
 const port = process.env.PORT ||1010;
 
+app.use(exp.json())
+app.use('/auth', require('./routes/authRouter'))
+app.use('/auth', require('./routes/authRouter'))
+app.use('/greenEye', require('./routes/greenEyeRouter'))
+
 app.listen(port, () => console.log("Serever up and running on port " + port));
       
