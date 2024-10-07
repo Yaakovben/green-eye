@@ -1,4 +1,4 @@
-export const register = async (req, res) => {
+const register = async (req, res) => {
     try {
         
     } catch (error) {
@@ -6,7 +6,7 @@ export const register = async (req, res) => {
     }
 }
 
-export const getProfile = async (req, res) => {
+const getProfile = async (req, res) => {
     try {
         
     } catch (error) {
@@ -15,7 +15,7 @@ export const getProfile = async (req, res) => {
 }
 
 
-export const setSettings = async (req, res) => {
+const setSettings = async (req, res) => {
     try {
         
     } catch (error) {

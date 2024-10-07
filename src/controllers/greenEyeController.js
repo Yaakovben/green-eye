@@ -1,4 +1,4 @@
-export const createpoll = async (req, res) => {
+const createpoll = async (req, res) => {
     try {
         
     } catch (error) {
@@ -6,7 +6,7 @@ export const createpoll = async (req, res) => {
     }
 }
 
-export const getNotfications = async (req, res) => {
+const getNotfications = async (req, res) => {
     try {
         
     } catch (error) {
@@ -15,7 +15,7 @@ export const getNotfications = async (req, res) => {
 }
 
 
-export const getPollById = async (req, res) => {
+const getPollById = async (req, res) => {
     try {
         
     } catch (error) {
@@ -23,7 +23,7 @@ export const getPollById = async (req, res) => {
     }
 }
 
-export const replay = async (req, res) => {
+const replay = async (req, res) => {
     try {
         
     } catch (error) {
@@ -31,7 +31,7 @@ export const replay = async (req, res) => {
     }
 }
 
-export const deletePoll = async (req, res) => {
+const deletePoll = async (req, res) => {
     try {
         
     } catch (error) {
@@ -46,3 +46,5 @@ module.exports = {
     replay,
     deletePoll
 }
+
+
