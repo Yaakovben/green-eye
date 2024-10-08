@@ -6,11 +6,9 @@ const connectToMongo = async () => {
         console.log("successfully connected to mongoDB");
         
     } catch (err) {
-        console.log(err);
-        
+        console.log(err);       
     }
 }
-
 module.exports = {
     connectToMongo
 }
